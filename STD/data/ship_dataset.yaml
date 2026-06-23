@@ -1,0 +1,13 @@
+# STD-YOLO Dataset Configuration
+# Remote sensing ship detection dataset (e.g., SSDD, SAR-Ship-Dataset)
+
+path: ../dataset                # dataset root directory
+train: images/train             # training images
+val: images/val                 # validation images
+
+# Number of classes
+nc: 1
+
+# Class names
+names:
+  0: ship
